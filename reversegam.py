@@ -84,7 +84,7 @@ def getScoreOfBoard(board):
         for y in range(HEIGHT):
             if board[x][y] == 'X':
                 xscore += 1
-            if board[x][y] == '0':
+            if board[x][y] == 'O':
                 oscore =+ 1
     return {'X':xscore, 'O':oscore}
 

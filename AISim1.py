@@ -213,7 +213,7 @@ def playGame(playerTile, computerTile):
                     drawBoard(board)
                 printScore(board, playerTile, computerTile)
 
-                move = getPlayerMove(board, playerTile)
+                move = getComputerMove(board, playerTile)
                 if move == 'quit':
                     print('Thanks for playing!')
                     sys.exit()
